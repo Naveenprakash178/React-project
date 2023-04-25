@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+/* This is a small project so why use two css files so i deleted the app.css and i will use index.css */
+body {
+  
+  /* background: #111317; */
+  background-image: url(./assets/pic1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+}
+.textarea {
+  width: 35vw;
+  height: 540px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.output {
+  font-size: 18px;
+  width: 35vw;
+  height: 540px;
+  background: #222;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  color: #fff;
+  line-height: 3rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+}
+span{
+  color: #ff4545;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px 20px;
+}
+nav ul li a{
+  transition: transform .5s;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+li:hover{
+  color: #222;
+}
+ul{
+  font-size: 20px;
+}
+li a:hover {
+  background-color: red;
+  color: white;
+  border-radius: 10%;
+  padding: 2px;
+}
+#social{
+  height: 4rem;
+  width: 4rem;
+  padding: 20px;
+  transition: transform 1.5s;
+}
+#social:hover{
+  transform:scale(1.8);
+  /* overflow-y: hidden; */
+}
+.you{
+ display: flex;
+ flex-direction: column;
+}
